@@ -8,7 +8,7 @@ Description: >
 
 
 
- Metadata:
+Metadata:
   AWS::ServerlessRepo::Application:
     Name: kusu-sam
     Description: hello world
