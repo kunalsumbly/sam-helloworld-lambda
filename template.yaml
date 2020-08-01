@@ -5,6 +5,23 @@ Description: >
 
   Sample SAM Template for sam-helloworld-lambda
 
+
+
+
+ Metadata:
+  AWS::ServerlessRepo::Application:
+    Name: kusu-sam
+    Description: hello world
+    Author: kusu
+    SpdxLicenseId: Apache-2.0
+    LicenseUrl: LICENSE.txt
+    ReadmeUrl: README.md
+    Labels: ['tests']
+    HomePageUrl: https://github.com/kunalsumbly/sam-helloworld-lambda
+    SemanticVersion: 0.0.1
+    SourceCodeUrl: https://github.com/kunalsumbly/sam-helloworld-lambda
+
+
 # More info about Globals: https://github.com/awslabs/serverless-application-model/blob/master/docs/globals.rst
 Globals:
   Function:
